@@ -8,6 +8,7 @@ body{
 font-family: 'Open Sans', sans-serif;
 font-size: 18px;
 line-height: 1.8em;
+background-color: rgb(230, 229, 227);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,7 +21,7 @@ font-style: normal;
 
 a:link,
 a:visited {
-color: #555555;
+color:white;
 text-decoration: none;
 }
 a:hover {
@@ -249,7 +250,7 @@ margin: auto;
 .copyright{
 font-size: 1em;
 align-items: center;
-color: #555555;
+color: white;
 }
 .social{
     display: flex;
@@ -445,7 +446,7 @@ color: #555555;
         align-items: center;
         width: 100%;
         padding: 10px 50px;
-        background: #ffffff
+        background: #4134af;
     }
     .header-title{
         margin-left: 0.5em;
@@ -536,8 +537,11 @@ color: #555555;
         align-items: center;
         justify-content: space-between;
         padding: 1em 2em 0.5em 2em;
+        background: #4134af;
     }
     .social{
         justify-content: space-around;
+
     }
+    
 }

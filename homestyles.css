@@ -8,6 +8,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.8em;
+  background-color: rgb(230, 229, 227);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a:link,
 a:visited {
-  color: #555555;
+  color: white;
   text-decoration: none;
 }
 a:hover {
@@ -71,11 +72,13 @@ nav li {
 
 .submit{
   border: 1px solid #666666;
-  border-radius: 5px;
-  padding: 0.3em;
-  /* for submissions closed screen */
-  cursor: not-allowed;  
-  color: #555555;
+    border-radius: 5px;
+    padding: 0.3em;
+    cursor: not-allowed;
+    color: black;
+    background: aliceblue;
+    box-shadow: 2px 2px 0.05px black;
+
 }
 .submit:hover {
   background-color: #f3f3f3;
@@ -138,10 +141,11 @@ nav li {
 }
 #demo{
   margin: auto;
-  width: 180px;
-  border: 1px solid #666666;
-  border-radius: 5px;
-  animation: blinker 1s ease-out infinite; 
+    width: 180px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    background: #f9caca;
+    animation: blinker 1s ease-out infinite; 
 }
 @keyframes blinker{
   50%{
@@ -181,7 +185,12 @@ nav li {
 }
 #query-tab{
   margin-top: 50px;
+    background: white;
+    box-shadow: 0px 0px 20px 0.5px grey;
 }
+
+
+
 #query-heading::before{
   content: '\2754';
   margin-right: 0.5em;
@@ -196,6 +205,7 @@ nav li {
   border: 1px solid #aaaaaa;
   border-radius: 5px;
   text-align: center;
+  color: black;
 }
 .remindbutton:hover{
   background-color: #eeeeee;
@@ -225,6 +235,66 @@ nav li {
   background-color: #777777;
 }
 
+/* FAQ */
+
+.faq-heading{
+  border-bottom: #777;
+  padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+width: 60%;
+margin: auto;
+
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  color: #444;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+}
+.faq-body{
+  margin: auto;
+  /* text-align: center; */
+ width: 50%; 
+ padding: auto;
+ 
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+  background-color: #F9F9F9;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.faq-page:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+
 .footer{
   position: relative;
   bottom: 0;
@@ -238,8 +308,8 @@ nav li {
 }
 .copyright{
   font-size: 1em;
-  align-items: center;
-  color: #555555;
+    align-items: center;
+    color: #ffffff;
 }
 .social{
   display: flex;
@@ -434,14 +504,12 @@ nav li {
   header{
     position: fixed;
     top: 0;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 10px 50px;
-    background: #ffffff
-  }
+    background: #4134af;  }
   .logo{
     width: 270px;
     justify-content: space-between;
@@ -489,9 +557,13 @@ nav li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 43px 0px 0px 0px;
     padding: 1em 2em 0.5em 2em;
+    background: #4134af;
   }
   .social{
     justify-content: space-around;
   }
+
+  
 }
