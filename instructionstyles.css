@@ -21,8 +21,8 @@ font-style: normal;
 
 a:link,
 a:visited {
-color:white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 a:hover {
 text-decoration: none;
@@ -169,13 +169,14 @@ margin: auto;
     width: 50%;
     padding: 0.5em 1em;
     margin: auto;
-    border: 1px solid #aaaaaa;
+    background-color: #4134af;
+    /* border: 1px solid #aaaaaa; */
     border-radius: 5px;
     text-align: center;
 }
-.psbutton:hover{
+/* .psbutton:hover{
     background-color: #eeeeee;
-}
+} */
 
 .rules{
     margin-top: 1em;
@@ -496,6 +497,11 @@ color: white;
     .text-content{
         width: 600px;
         line-height: 2em;
+        /* margin-top: 5%; */
+    }
+
+    #instructions{
+        margin-top: 5%;
     }
     #guide{
         padding-bottom: 2em;

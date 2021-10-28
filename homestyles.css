@@ -96,6 +96,10 @@ nav li {
   text-align: center;
 }
 
+#current_title h1{
+  margin-bottom: 0;
+}
+
 /* .content{
   display: flex; 
   flex-direction: row; 
@@ -125,15 +129,17 @@ nav li {
 
 .timer{
   /* display: none; */
+  
   justify-content: center;
   text-align: center;
-  margin: auto;
-  margin-top: 10px;
+  /* margin: auto; */
+  /* margin-top: 10px; */
   margin-bottom: 50px;
-  padding: 1em 1em;
+  /* padding: 1em 1em; */
 }
 #timer p{
   /* display: none; */
+  display: inline;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   color: #555555;
@@ -205,8 +211,10 @@ nav li {
   border: 1px solid #aaaaaa;
   border-radius: 5px;
   text-align: center;
-  color: black;
+  background-color: #4134af;
+  color: white;
 }
+
 .remindbutton:hover{
   background-color: #eeeeee;
 }
