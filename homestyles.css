@@ -129,6 +129,7 @@ nav li {
 
 .timer{
   /* display: none; */
+  display: flex;
   
   justify-content: center;
   text-align: center;
@@ -137,14 +138,37 @@ nav li {
   margin-bottom: 50px;
   /* padding: 1em 1em; */
 }
-#timer p{
-  /* display: none; */
+/* #timer p{
+  /* display: none; 
   display: inline;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   color: #555555;
   background: #ffffff;
+} */
+.timer_box{
+  display: flex;
+  width: 7%;
+  flex-direction: column;
+  align-items: center;
 }
+
+.timer_box p {
+  border: 2px #f8f5f5 solid;
+  color: white;
+  background: #4134af;
+  display: block;
+  width: 66%;
+  height: 47%;
+  border-radius: 10%;
+}
+
+.danger {
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+  text-align: center;
+}
+
 #demo{
   margin: auto;
     width: 180px;
@@ -215,9 +239,9 @@ nav li {
   color: white;
 }
 
-.remindbutton:hover{
+/* .remindbutton:hover{
   background-color: #eeeeee;
-}
+} */
 .query-frame{
   font-family: 'Open Sans', sans-serif;
   width: 100%;

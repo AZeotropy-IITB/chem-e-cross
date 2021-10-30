@@ -495,7 +495,7 @@ color: white;
       }
 
     .text-content{
-        width: 600px;
+        width: 80%;
         line-height: 2em;
         /* margin-top: 5%; */
     }
@@ -512,12 +512,12 @@ color: white;
         padding-top: 1.5em;
     }
     .contact-card{
-        display: block;
-        width: 100%;
+        display: inline-block;
+        width: 60%;
         margin: auto;
         margin-top: 1.5em;
         border: 1px solid #aaaaaa;
-        padding: 1em 1em;
+        /* padding: 1em 1em; */
         background-color: #ffffff;
     }
     .contact-avatar{
@@ -550,4 +550,15 @@ color: white;
 
     }
     
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.video{
+    margin: 5% 5% 5% 5%;
 }
