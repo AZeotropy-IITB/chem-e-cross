@@ -408,13 +408,12 @@ nav li {
     header{
       position: fixed;
       top: 0;
-  
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: 100%;
       padding: 10px 50px;
-      background: #ffffff
+      background: #4134af;
     }
     .header-title{
       margin-left: 0.5em;
@@ -461,9 +460,11 @@ nav li {
   
     .footer{
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1em 2em 0.5em 2em;
+    align-items: center;
+    justify-content: space-between;
+    margin: 43px 0px 0px 0px;
+    padding: 1em 2em 0.5em 2em;
+    background: #4134af;
     }
     .social{
       justify-content: space-around;
