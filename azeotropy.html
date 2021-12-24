@@ -24,6 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" 
       rel="stylesheet"/> 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="instructionstyles.css"/>
     
     <link rel="shortcut icon" href="media/azeo21.png" height="10px"/>
@@ -57,7 +58,16 @@
             <!-- <li><a href="archive.html">Archive</a></li> -->
             <li><a href="instructions.html">Instructions</a></li>
             <li><a href="azeotropy.html">AZeotropy</a></li>
-            <li><a href="leaderboard.html">Leaderboard</a></li>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Leaderboard
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="leaderboard.html">Round-2</a>
+                <a class="dropdown-item" href="leaderboard.html">Overall</a>
+                
+              </div>
+            </div>
             <!-- <li><a class='submit' href="https://www.questionpro.com/t/ARvr4ZlchK" target="_blank">Submit</a></li> -->
             <!-- <li><a class="submit" title="Submissions Closed" target="_blank">Submit</a></li> -->
             <!-- <li><a class="submit" href="leaderboardpro.html">Leaderboard</a></li> -->
@@ -165,6 +175,9 @@
     </div>
 
     <script src="toggle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   </body>
 
